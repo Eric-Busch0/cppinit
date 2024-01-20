@@ -18,10 +18,13 @@ void generate_makefile(std::ofstream& makefile, std::string project)
 void generate_main(std::ofstream& main_cpp)
 {
     main_cpp << "#include <iostream>\n";
+    main_cpp << "\n";
+    main_cpp << "\n";
+    main_cpp << "\n";
     main_cpp << "int main(int argc, char **argv) \n";
     main_cpp << "{\n";
     main_cpp << "\n";
-    main_cpp << "return 0;\n";
+    main_cpp << "\treturn 0;\n";
     main_cpp << "}\n";
 
 
